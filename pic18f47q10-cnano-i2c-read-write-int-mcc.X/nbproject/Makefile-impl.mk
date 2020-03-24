@@ -27,7 +27,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 PROJECTNAME=pic18f47q10-cnano-i2c-read-write-int-mcc.X
 
 # Active Configuration
-DEFAULTCONF=free
+DEFAULTCONF=pro
 CONF=${DEFAULTCONF}
 
 # All Configurations

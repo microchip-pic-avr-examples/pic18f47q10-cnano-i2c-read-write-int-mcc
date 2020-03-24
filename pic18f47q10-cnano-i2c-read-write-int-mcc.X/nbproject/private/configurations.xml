@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="65">
   <projectmakefile>Makefile</projectmakefile>
-  <defaultConf>0</defaultConf>
+  <defaultConf>1</defaultConf>
   <confs>
     <conf name="free" type="2">
       <platformToolSN>:=MPLABComm-USB-Microchip:=&lt;vid>03EB:=&lt;pid>2175:=&lt;rev>0100:=&lt;man>Microchip Technology Incorporated:=&lt;prod>nEDBG CMSIS-DAP:=&lt;sn>MCHP3246031800002809:=&lt;drv>x:=&lt;xpt>h:=end</platformToolSN>

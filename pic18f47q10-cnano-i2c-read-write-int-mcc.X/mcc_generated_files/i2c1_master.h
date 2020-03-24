@@ -5,7 +5,7 @@
     Microchip Technology Inc.
 
   @File Name
-    i2c1_master.h
+    i2c1.h
 
   @Summary
     This is the generated header file for the I2C1 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
@@ -13,7 +13,7 @@
   @Description
     This header file provides APIs for driver for I2C1.
     Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.80.0
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.79.0
         Device            :  PIC18F47Q10
         Driver Version    :  1.0.0
     The generated drivers are tested against the following:
