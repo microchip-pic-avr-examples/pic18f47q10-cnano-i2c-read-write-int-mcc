@@ -25,11 +25,11 @@
 #include "mcc_generated_files/examples/i2c1_master_example.h"
 
 
-#define I2C_SLAVE_ADDR              0x20
-#define MCP23008_REG_ADDR_IODIR     0x00
-#define MCP23008_REG_ADDR_GPIO      0x09
-#define PINS_DIGITAL_OUTPUT         0x00
-#define MCP23008_DATA               0x0F
+#define I2C_SLAVE_ADDR                  0x20
+#define MCP23008_REG_ADDR_IODIR         0x00
+#define MCP23008_REG_ADDR_GPIO          0x09
+#define PINS_DIGITAL_OUTPUT             0x00
+#define MCP23008_DATA                   0x0F
 
 /*
                          Main application
