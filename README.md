@@ -9,7 +9,7 @@ This repository contains an example of MCC-generated source code for I2C as desc
 The PIC18F47Q10 configured in I2C Master Mode using the MSSP1 peripheral and performing read and write operations with interrupts. This example will use the slave [MCP23008](https://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf), an I/O expander, addressed in 7-bit mode.
 
 ## Related Documentation
-- [TBxxxx - Getting Started with I2C Using MSSP on PIC18](http://www.microchip.com/)
+- [TB3281 - Getting Started with I2C Using MSSP on PIC18](http://ww1.microchip.com/downloads/en/Appnotes/Getting_Started_With_I2C_Using_MSSP_on%20PIC18_90003281A.pdf)
 - [PIC18-Q10 Product Family Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family)
 - [PIC18F47Q10 Data Sheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf)
 - [MCP23008 - 8-Bit I/O Expander with Serial Interface](https://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf)
