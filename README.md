@@ -4,7 +4,7 @@
 # PIC18F47Q10 I2C Master Read/Write Data Using Interrupts
 
 ## Objective
-This repository contains an example of MCC-generated source code for I2C as described in [*TBxxxx - Getting Started with I2C Using MSSP on PIC18*](https://www.microchip.com/) document from Microchip.
+This repository contains an example of MCC-generated source code for I2C as described in [TB3281 - Getting Started with I2C Using MSSP on PIC18](http://ww1.microchip.com/downloads/en/Appnotes/Getting_Started_With_I2C_Using_MSSP_on%20PIC18_90003281A.pdf) document from Microchip.
 
 The PIC18F47Q10 configured in I2C Master Mode using the MSSP1 peripheral and performing read and write operations with interrupts. This example will use the slave [MCP23008](https://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf), an I/O expander, addressed in 7-bit mode.
 
