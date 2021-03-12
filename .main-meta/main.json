@@ -9,7 +9,7 @@
         "projectName": "pic18f47q10-cnano-i2c-read-write-int-mcc",
         "shortDescription": "This project is an illustration for a basic use case based around MSSP implementing a basic I2C communication. The drivers for peripherals were generated using MCC.",
         "ide": {
-            "name": "MPLABX",
+            "name": "MPLAB X",
             "semverRange": ">=5.30.0"
         },
         "compiler": [
