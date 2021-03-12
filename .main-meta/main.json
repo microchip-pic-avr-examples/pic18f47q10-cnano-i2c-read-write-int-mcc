@@ -4,18 +4,18 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-cnano-i2c-read-write-int-mcc",
-        "version": "1.0.2",
-        "displayName": "I2C Master Read/Write Data Using Interrupts",
+        "version": "1.0.3",
+        "displayName": "I2C Host Read/Write Data Using Interrupts",
         "projectName": "pic18f47q10-cnano-i2c-read-write-int-mcc",
         "shortDescription": "This project is an illustration for a basic use case based around MSSP implementing a basic I2C communication. The drivers for peripherals were generated using MCC.",
         "ide": {
             "name": "MPLABX",
-            "semverRange": ">=5.30"
+            "semverRange": ">=5.30.0"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.10"
+                "semverRange": "^2.10.0"
             }
         ],
         "dfp": {
@@ -38,7 +38,6 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "Peripherals",
             [
                 "Peripherals",
                 "MSSP"

@@ -1,12 +1,12 @@
 <div id="readme" class="Box-body readme blob js-code-block-container">
  <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/MicrochipLogo.png" alt="MCHP" style="max-width:100%;"></a></p>
 
-# PIC18F47Q10 I2C Master Read/Write Data Using Interrupts
+# PIC18F47Q10 I2C Host Read/Write Data Using Interrupts
 
 ## Objective
 This repository contains an example of MCC-generated source code for I2C as described in [TB3281 - Getting Started with I2C Using MSSP on PIC18](http://ww1.microchip.com/downloads/en/Appnotes/Getting_Started_With_I2C_Using_MSSP_on%20PIC18_90003281A.pdf) document from Microchip.
 
-The PIC18F47Q10 configured in I2C Master Mode using the MSSP1 peripheral and performing read and write operations with interrupts. This example will use the slave [MCP23008](https://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf), an I/O expander, addressed in 7-bit mode.
+The PIC18F47Q10 configured in I2C Host Mode using the MSSP1 peripheral and performing read and write operations with interrupts. This example will use the client [MCP23008](https://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf), an I/O expander, addressed in 7-bit mode.
 
 ## Related Documentation
 - [TB3281 - Getting Started with I2C Using MSSP on PIC18](http://ww1.microchip.com/downloads/en/Appnotes/Getting_Started_With_I2C_Using_MSSP_on%20PIC18_90003281A.pdf)
@@ -41,7 +41,7 @@ The following configurations must be made for this project:
 - MSSP1
     - Interrupt Driven: enabled
 	- Serial Protocol: I2C
-    - Mode: Master
+    - Mode: Host
     - I2C Clock Frequency: 100000
 - Watchdog Timer: disabled
 - Low-voltage Programming: disabled
