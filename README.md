@@ -1,7 +1,6 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/MicrochipLogo.png" alt="MCHP" style="max-width:100%;"></a></p>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# PIC18F47Q10 I2C Host Read/Write Data Using Interrupts
+# I2C Host Read/Write Data Using Interrupts
 
 ## Objective
 This repository contains an example of MCC-generated source code for I2C as described in [TB3281 - Getting Started with I2C Using MSSP on PIC18](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1003077) document from Microchip.
